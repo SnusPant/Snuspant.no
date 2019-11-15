@@ -1,0 +1,127 @@
+
+
+body{
+  background-color: #C2C2C4;
+  font-family: monospace;
+}
+
+
+
+
+.tekst{
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+margin-right: 20px;
+}
+
+  #headline{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+  }
+
+.grid_til_pantemaskin{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.Pantemaskintekst{
+  background-color: lightgray;
+  margin: auto;
+  width: 100%;
+  margin-top: 40px;
+  margin-left: 30px;
+  border-radius: 2%;
+}
+.Pantemaskintekst p{
+    font-size: 23px;
+    padding: 1%;
+    padding-left: 1.5%;
+    margin: auto;
+
+}
+
+#automat{
+  margin: auto;
+  width: 500px;
+  margin-top: 40px;
+  margin-right: 40px;
+  border-color: black;
+  border-radius: 6px;
+  border-style: solid;
+  float: right;
+}
+#app{
+  margin: auto;
+  margin-top: 40px;
+  border-color: black;
+  border-radius: 6px;
+  border-style: solid;
+  float: right;
+  width: 500px;
+  margin-right: 40px;
+
+}
+
+#app:hover{
+  transform: scale(1.05);
+}
+
+#automat:hover{
+transform: scale(1.05);
+
+}
+
+main{
+  margin-top: 100px;
+  position: relative;
+  animation: fadeinn 2s;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fadeinn {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+footer{
+  display: block;
+  text-align: center;
+  background-color: #363537;
+  color: white;
+
+  position: absolute;
+  width: 100%;
+  margin-top: 30px;
+  right: 0;
+  left: 0;
+
+  /*<p>Kontaktinformasjon: </p>
+
+  <p>SnusPant AS</p>
+  <p>Elias Smiths vei 15</p>
+  <p>1337 Sandvika</p>*/
+}
+
+#bildesnus{
+  width: 600px;
+  border-radius: 4px;
+  margin-top: 70px;
+  margin-left: 70px;
+  border-style: solid;
+  border-width:4px;
+
+}
+#bildesnus:hover{
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+
+#logo1{
+  width: 50px;
+
+
+}

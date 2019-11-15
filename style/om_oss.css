@@ -1,0 +1,76 @@
+
+
+body{
+  background-color: #C2C2C4;
+  font-family: monospace;
+}
+
+
+.om_oss{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+
+.om_oss_tekst{
+  grid-column: span 5;
+}
+
+#overskrift{
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.om_oss_tekst p{
+  font-size: 30px;
+  background-color: lightgray;
+  width: 70%;
+  margin-left: 10%;
+  border-radius: 1%;
+  padding: 20px;
+}
+
+main{
+  margin-top: 100px;
+  position: relative;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  background-color: #363537;
+  color: white;
+
+  position: absolute;
+  width: 100%;
+  margin-top: 30px;
+  right: 0;
+  left: 0;
+
+  /*<p>Kontaktinformasjon: </p>
+
+  <p>SnusPant AS</p>
+  <p>Elias Smiths vei 15</p>
+  <p>1337 Sandvika</p>*/
+}
+#bildesnus{
+  width: 600px;
+  border-radius: 4px;
+  margin-top: 70px;
+  margin-left: 70px;
+  border-style: solid;
+  border-width:4px;
+
+}
+#bildesnus:hover{
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+
+#logo1{
+  width: 50px;
+
+
+}

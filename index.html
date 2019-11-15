@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hjem - SnusPant</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/forsidebilder.css">
+    <link rel="stylesheet" href="style/forsideslide.css">
+
+  </head>
+  <body>
+<nav>
+  <nav>
+      <img id="logo" src="bilde/LogoSample_ByTailorBrands-4.jpg" alt="">
+    <a class="active" href="index.html">Hjem</a>
+    <a  href="pant.html">Pantemottak</a>
+    <a  href="hvorfor.html">Hvorfor Pante?</a>
+    <a  href="teknologi.html">Vår App</a>
+    <a   href="om_oss.html">Om oss</a>
+  </nav>
+</nav>
+<main>
+
+<div class="jordatjeneste">
+<h1 id="jordatekst">Gjør jorda en tjeneste og pant snusboksen din!</h1>
+
+</div>
+
+
+<div class="forsidegrid">
+
+<section class="maindiv">
+
+
+
+  <div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="bilde/natur.jpg" style="width:100%">
+    <div class="text">Den flotte naturen, har mange trusler..</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="bilde/brann.jpg" style="width:100%">
+    <div class="text">noen av de kan vi ikke gjøre noe med..</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="bilde/pantesnus.jpg" style="width:100%">
+    <div class="text">og andre kan vi unngå</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active1", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active1";
+  }
+  </script>
+
+</section>
+
+
+<section class="grid2">
+  <p id="appnedlastning">Last ned appen vår!</p>
+
+<section class="nedlastgrid">
+  <a href="https://play.google.com/store" target="_blank"> <img id="googlelogo" src="bilde/googleplay.png" alt=""></a>
+  <a  href="https://www.apple.com/no/ios/app-store/" target="_blank"> <img id="applelogo" src="bilde/apple.png" alt=""> </a>
+</section>
+
+</section>
+
+</div>
+</main>
+
+
+<footer>
+  <p>Kontaktinformasjon: </p>
+  <p>SnusPant AS</p>
+  <p>Elias Smiths vei 15</p>
+  <p>1337 Sandvika</p>
+  <img id="logo1"src="bilde/LogoSample_ByTailorBrands-3.jpg" alt="">
+
+</footer>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+
+
+
+.forsidegrid{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.maindiv{
+
+  grid-column: span 5;
+}
+
+.jordatjeneste{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#jordatekst{
+  grid-column: span 5;
+  margin: auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  text-align: center;
+  background: lightgray;
+  width:83.3%;
+
+}
+
+.nedlastgrid{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+#appnedlastning{
+  font-weight: bold;
+  font-size: 25px;
+  background: lightgray;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 5px;
+
+
+}
+
+#applelogo{
+  width: 100%;
+  border-radius: 0;
+  background-color: lightgray;
+  padding: 5px;
+
+}
+#googlelogo{
+  width: 100%;
+  border-radius: 0;
+  background-color: lightgray;
+  padding: 5px;
+}
+.grid2{
+  margin-right: 30px;
+
+
+
+
+}
+#logo{
+  height: 80px;
+  border-radius: 0px;
+  border-style: solid;
+  border: 2px;
+  border-color: black;
+
+}
+
+
+.tekst{
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+margin-right: 20px;
+}
+
+main{
+  margin-top: 100px;
+  position: relative;
+}
+
+footer{
+  display: block;
+  text-align: center;
+  background-color: #363537;
+  color: white;
+  top: 100000;
+
+  position: relative;
+  width: 100%;
+
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  /*<p>Kontaktinformasjon: </p>
+
+  <p>SnusPant AS</p>
+  <p>Elias Smiths vei 15</p>
+  <p>1337 Sandvika</p>*/
+}
+
+footer p{
+  color: white;
+  font-size: 13px;
+}
+#bildesnus{
+  width: 600px;
+  border-radius: 4px;
+  margin-top: 70px;
+  margin-left: 70px;
+  border-style: solid;
+  border-width:4px;
+
+}
+#bildesnus:hover{
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+
+
+#logo1{
+  width: 50px;
+  border: none;
+
+}

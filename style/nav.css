@@ -1,0 +1,47 @@
+nav{
+  background-color: #4B543B;
+  display: grid;
+  grid-template-columns: repeat(6, auto) 1fr;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+}
+
+
+nav a:hover:not(.active){
+  background-color: #5B634C;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 30px;
+  font-family: monospace;
+  
+}
+
+.active{
+  background-color: #454D36;
+}
+#logo{
+  height: 80px;
+  border-radius: 0px;
+  border-style: solid;
+  border: 2px;
+  border-color: black;
+
+}
+body{
+  background-color: #C2C2C4;
+  font-family: monospace;
+}
+p{
+  color: #60656F;
+}
+
+h1{
+  color: #60656F;
+}
